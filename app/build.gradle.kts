@@ -3,9 +3,12 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
+
 android {
     namespace = "com.example.aprendeai"
     compileSdk = 34
+
+    
 
     defaultConfig {
         applicationId = "com.example.aprendeai"
@@ -39,7 +42,9 @@ android {
 }
 
 dependencies {
-
+    //'androidx.appcompat:appcompat:1.3.1'
+    //'androidx.constraintlayout:constraintlayout:2.1.0'
+    //'androidx.fragment:fragment:1.3.6'//
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
