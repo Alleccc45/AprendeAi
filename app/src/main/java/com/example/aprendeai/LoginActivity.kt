@@ -1,7 +1,6 @@
 package com.example.aprendeai
 
 import android.Manifest
-import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -41,8 +40,8 @@ class LoginActivity : AppCompatActivity() {
         auth = Firebase.auth
 
         val acesso = findViewById<Button>(R.id.acessar)
-        val email = findViewById<EditText>(R.id.editTextTextEmailAddress2)
-        val senha = findViewById<EditText>(R.id.editTextTextPassword)
+        val email = findViewById<EditText>(R.id.editTextTextEmailAddress3)
+        val senha = findViewById<EditText>(R.id.editTextTextPassword2)
 
 
         acesso.setOnClickListener(View.OnClickListener {
